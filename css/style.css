@@ -57,6 +57,10 @@
     background-size: cover;
 }
 
+.error-text{
+    margin-left: 118px;
+}
+
 .title{
     font-size: 26px;
     font-weight: 400;
@@ -75,6 +79,7 @@
 }
 
 .services{
+    margin-left: 118px;
     display: flex;
     flex-direction: row;
     gap: 16px;
@@ -137,19 +142,25 @@
     background-image: url('../img/toloka.svg');
 }
 
-
 .footer{
     width: 700px;
-    height: 30px;
+    height: 40px;
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -100%);
+}
+
+.footer__content {
+    list-style-type: none;
     font: .94em Arial,Helvetica,sans-serif;
     font-size: 85%;
     color: #999;
     display: flex;
+    flex-direction: row;
     gap: 10px;
+    margin-block: 0;
+    padding-inline: 0;
 }
 
 .footer__link{
