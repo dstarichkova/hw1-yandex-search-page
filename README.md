@@ -10,4 +10,5 @@ This project is created with:
 * CSS
 
 ## Links
-Link to published project:
+Link to deployed website:
+https://lustrous-cascaron-d78e3f.netlify.app/
