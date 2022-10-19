@@ -1,0 +1,163 @@
+.search{
+    font: .94em Arial,Helvetica,sans-serif;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-form{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.search-form__input{
+    width: 480px;
+    height: 40px;
+    padding-left: 13px;
+    /*flex: 1;*/
+    font-size: 123.1%;
+    border: 2px solid #fc0;
+    border-radius: .625rem 0 0 .625rem;
+}
+
+.search-form__input::placeholder {
+    align-items: center;
+    height: 100%;
+    opacity: .4;
+    color: #000;
+}
+
+
+.search_form__button{
+    font-weight: 400;
+    background: #fc0;
+    color: #000;
+    font-size: 123.1%;
+    border-radius: 0 .625rem .625rem 0;
+    border: 0;
+    outline: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.logo {
+    width: 100px;
+    height: 43px;
+    margin-right: 18px;
+    background: url('../img/yandex_logo.svg') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 29px 0 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: #0054b9;
+    transition: color 0.15s ease;
+}
+
+.link:hover{
+    color: #CC0100;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 38px;
+    justify-content: space-between;
+
+}
+
+.services__column{
+    max-width: 50%;
+    padding: 0;
+    list-style-type: none;
+    vertical-align: top;
+}
+
+.services__main-item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    min-width: 100%;
+    margin-bottom: 8px;
+
+}
+
+.services__icon {
+    width: 16px;
+    height: 16px;
+    margin: 0 9px 0 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.services__icon_market{
+    background-image: url('../img/market.svg');
+}
+
+.services__icon_plus{
+    background-image: url('../img/plus.svg');
+}
+
+.services__icon_music{
+    background-image: url('../img/music.svg');
+}
+
+.services__icon_kinopoisk{
+    background-image: url('../img/kinopoisk.svg');
+}
+
+.services__icon_praktikum{
+    background-image: url('../img/praktikum.svg');
+}
+
+.services__icon_edadil{
+    background-image: url('../img/edadil.svg');
+}
+
+.services__icon_toloka{
+    background-image: url('../img/toloka.svg');
+}
+
+
+.footer{
+    width: 700px;
+    height: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font: .94em Arial,Helvetica,sans-serif;
+    font-size: 85%;
+    color: #999;
+    display: flex;
+    gap: 10px;
+}
+
+.footer__link{
+    text-decoration: none;
+    color: #999;
+    transition: color 0.15s ease;
+}
+
+.footer__link:hover{
+    color: #CC0100;
+}
